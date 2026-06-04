@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projet_finale.controller.NoteController">
+   <fx:include source="Student.fxml"/>
+    <children>
+        <StackPane />
+        <MenuButton   layoutX="240.0" layoutY="170.0" prefWidth="400.0" text="Cours">
+            <items>
+                <MenuItem  fx:id="INF1034" styleClass="menu-item" text="INF1034-Introduction aux interface utilisateur" userData="COURS_NOTE"/>
+                <MenuItem  fx:id="PIF1001" styleClass="menu-item" text="PIF1001-Base de donnée" userData="COURS_NOTE"/>
+                <MenuItem  fx:id="INF1002" styleClass="menu-item" text="INF1002-Algorithme" userData="COURS_NOTE"/>
+                <MenuItem  fx:id="PIF1005" styleClass="menu-item" text="PIF1005-Mathematique pour informaticien" userData="COURS_NOTE" />
+            </items>
+        </MenuButton>
+    </children>
+</AnchorPane>
